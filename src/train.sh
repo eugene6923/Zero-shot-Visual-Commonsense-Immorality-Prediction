@@ -1,0 +1,1 @@
+python text_train.py -s --wandb True
