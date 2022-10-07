@@ -1,7 +1,7 @@
-<style>
+<!-- <style>
 red { color: red }
 yellow { color: yellow }
-</style>
+</style> -->
 
 # Zero-shot Visual Commonsense Immorality Prediction
 This is the official implementation of the paper: "Zero-shot Visual Commonsense Immorality Prediction (BMVC 2022)". **<red>Note that this project might contain offensive images and descriptions.</red>**
@@ -18,7 +18,30 @@ In this project, we propose a model that predicts visual commonsense immorality 
 ![model overview](assets/overview.png)
 
 ## Usage
-TODO
+Following code is based on CLIP (Contrastive Language-Image Pre-Training). So for more details, you can visit [CLIP](https://github.com/openai/CLIP). Clone this repository for training and testing the model.
+
+```
+gh repo clone ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction
+```
+
+First , you need CUDA GPU machine to train the model. Then install Pytorch 1.7.1 (or later). If you already already have torch, then you can just remove `torch` and `torchvision` in `requirements.txt` and run the following codes.  
+
+```
+pip install -r requirements.txt
+```
+
+### Train
+ You have two ways to train the code. You can find `src/text_train.py` and `src/train.sh`. Both are for the training with text. You can use the following codes for training. 
+
+
+```
+cd src
+python text_train.py -s --wandb True
+```
+
+### Test
+When you want to test your model with image dataset, you can easily go to `src/test` and run the code with `python test.py`. You can test our Visual Commonsense Immorality dataset in `data` folder.
+
 
 ## VCI Benchmark
 |![VCI benchmark example images](assets/vci.png)|
