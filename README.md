@@ -6,7 +6,8 @@ yellow { color: yellow }
 # Zero-shot Visual Commonsense Immorality Prediction
 This is the official implementation of the paper: "Zero-shot Visual Commonsense Immorality Prediction (BMVC 2022)". **<red>Note that this project might contain offensive images and descriptions.</red>**
 
-[[Paper]()] [[Project]()]
+<!-- [[Paper]()] [[Project]()] -->
+[[Paper]()]
 
 |![immoral images predicted by our model](assets/imagenet_immoral_imgs.png)|
 |:--:|
@@ -53,3 +54,5 @@ VCI benchmark contains 2,172 immoral images to proceed with more general and ext
 * **Environmental pollution**: air pollution, land pollution, water pollution, etc.
 
 ## Citation
+```
+```
