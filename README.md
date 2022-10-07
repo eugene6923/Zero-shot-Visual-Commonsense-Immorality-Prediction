@@ -49,6 +49,7 @@ When you want to test your model with image dataset, you can easily go to `src/t
 |:--:|
 |Example images of Visual Commonsense Immorality (VCI) benchmark|
 VCI benchmark contains 2,172 immoral images to proceed with more general and extensive immoral image prediction. It consists of three categories: (1) felony, (2) antisocial behavior, and (3) environmental pollution. Benchmark is provided in URL form and available in `data/VCI` directory.
+
 * **Felony**: armed robbery, burglary, car vandalism, etc.
 * **Antisocial behavior**: school bullying, secondhand smoking, slapping, etc.
 * **Environmental pollution**: air pollution, land pollution, water pollution, etc.
