@@ -7,7 +7,7 @@ yellow { color: yellow }
 This is the official implementation of the paper: "Zero-shot Visual Commonsense Immorality Prediction (BMVC 2022)". **<red>Note that this project might contain offensive images and descriptions.</red>**
 
 <!-- [[Paper]()] [[Project]()] -->
-[[Paper]()]
+[[Paper](https://arxiv.org/abs/2211.05521)]
 
 |![immoral images predicted by our model](assets/imagenet_immoral_imgs.png)|
 |:--:|
