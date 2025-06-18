@@ -41,7 +41,7 @@ python text_train.py -s --wandb True
 ```
 
 ### Test
-When you want to test your model with image dataset, you can easily go to `src/test` and run the code with `python test.py`. You can test our Visual Commonsense Immorality dataset in `data` folder.
+When you want to test your model with image dataset, you can easily go to `src/test` and run the code. You can test our Visual Commonsense Immorality dataset in `data` folder.
 
 
 ## VCI Benchmark
@@ -57,4 +57,10 @@ VCI benchmark contains 2,172 immoral images to proceed with more general and ext
 
 ## Citation
 ```
+@article{jeong2022zero,
+  title={Zero-shot visual commonsense immorality prediction},
+  author={Jeong, Yujin and Park, Seongbeom and Moon, Suhong and Kim, Jinkyu},
+  journal={arXiv preprint arXiv:2211.05521},
+  year={2022}
+}
 ```
